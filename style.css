@@ -116,7 +116,7 @@ label {
   padding: 0.5em 1.2em;
   border-radius: 1.25em;
   border: none;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .header nav ul li a:hover,
@@ -131,9 +131,9 @@ label {
 }
 .header h1 {
   text-align: center;
-  padding: 1em;
+  padding: 6rem;
   text-transform: uppercase;
-  font-size: 3rem;
+  font-size: 4rem;
   font-family: "Fraunces", serif;
   font-weight: 900;
   letter-spacing: 0.2em;
@@ -159,20 +159,21 @@ label {
 }
 
 .grid1 h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: "Fraunces", serif;
   line-height: 1.2;
+  font-weight: 900;
 }
 
 .grid1 p {
-  font-size: 0.9rem;
+  font-size: 1.15rem;
   padding: 2rem 0;
 }
 
 .grid1 a {
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .grid2 {
@@ -203,26 +204,27 @@ label {
 }
 
 .grid4 h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: "Fraunces", serif;
   line-height: 1.2;
+  font-weight: 900;
 }
 
 .grid4 p {
-  font-size: 0.9rem;
+  font-size: 1.15rem;
   padding: 2rem 0;
 }
 
 .grid4 a {
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .grid5 {
   grid-column: 1;
   grid-row: 3;
-  padding: 4rem 9rem;
+  padding: 4rem 10rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -231,17 +233,18 @@ label {
 }
 
 .grid5 h2 {
+  font-size: 2.5rem;
   padding: 1.5rem 0;
   font-family: "Fraunces", serif;
 }
 .grid5 p {
-  font-size: 0.9rem;
+  font-size: 1.15rem;
 }
 
 .grid6 {
   grid-column: 2;
   grid-row: 3;
-  padding: 4rem 9rem;
+  padding: 4rem 10rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -250,11 +253,12 @@ label {
 }
 
 .grid6 h2 {
+  font-size: 2.5rem;
   padding: 1.5rem 0;
   font-family: "Fraunces", serif;
 }
 .grid6 p {
-  font-size: 0.9rem;
+  font-size: 1, 15rem;
 }
 
 .graphic-design {
@@ -269,6 +273,78 @@ label {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* testimonial section */
+
+.testimonial {
+  padding: 6rem;
+}
+
+.testimonial h1 {
+  color: hsl(210, 4%, 67%);
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  text-align: center;
+  font-family: "Fraunces", serif;
+}
+
+.testimonial .clients {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 0 0;
+}
+
+.testimonial .clients div {
+  max-width: 30%;
+  text-align: center;
+  align-items: center;
+  line-height: 2;
+}
+
+.testimonial .clients div img {
+  border-radius: 50%;
+  max-width: 20%;
+  margin: 0 auto;
+}
+
+.testimonial .clients div p:first-of-type {
+  padding: 3rem 0;
+}
+
+.testimonial .clients div h3 {
+  font-weight: 800;
+}
+
+.testimonial .clients div p:last-of-type {
+  font-size: 0.9rem;
+  color: hsl(210, 4%, 67%);
+}
+
+.images {
+  display: flex;
+}
+
+.images div {
+  width: 25%;
+}
+
+.images div:first-of-type {
+  background: url(./images/desktop/image-gallery-milkbottles.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer {
+  display: flex;
+  background-color: hsl(168, 34%, 41%);
+}
+
+footer p {
+  color: hsl(168, 34%, 41%);
 }
 
 .attribution {
