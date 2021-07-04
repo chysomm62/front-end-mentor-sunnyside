@@ -131,7 +131,7 @@ label {
 }
 .header h1 {
   text-align: center;
-  padding: 6rem;
+  padding: 4rem;
   text-transform: uppercase;
   font-size: 4rem;
   font-family: "Fraunces", serif;
@@ -168,12 +168,18 @@ label {
 .grid1 p {
   font-size: 1.15rem;
   padding: 2rem 0;
+  color: hsl(232, 10%, 55%);
 }
 
 .grid1 a {
   font-size: 1.5rem;
+  font-family: "Fraunces", serif;
   text-transform: uppercase;
   font-weight: 700;
+  border-bottom: 3px solid hsl(51, 100%, 49%);
+  padding-bottom: 0;
+  line-height: 1;
+  width: fit-content;
 }
 
 .grid2 {
@@ -213,12 +219,18 @@ label {
 .grid4 p {
   font-size: 1.15rem;
   padding: 2rem 0;
+  color: hsl(232, 10%, 55%);
 }
 
 .grid4 a {
   font-size: 1.5rem;
+  font-family: "Fraunces", serif;
   text-transform: uppercase;
   font-weight: 700;
+  border-bottom: 3px solid hsl(51, 100%, 49%);
+  padding-bottom: 0;
+  line-height: 1;
+  width: fit-content;
 }
 
 .grid5 {
@@ -266,6 +278,11 @@ label {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  color: hsl(167, 40%, 24%);
+}
+
+.graphic-design h2 {
+  font-weight: 900;
 }
 
 .photography {
@@ -273,6 +290,7 @@ label {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  color: hsl(212, 27%, 19%);
 }
 
 /* testimonial section */
@@ -310,12 +328,17 @@ label {
   margin: 0 auto;
 }
 
+.testimonial .clients div p {
+  color: hsl(213, 9%, 39%);
+}
+
 .testimonial .clients div p:first-of-type {
   padding: 3rem 0;
 }
 
 .testimonial .clients div h3 {
   font-weight: 800;
+  font-family: "Fraunces", serif;
 }
 
 .testimonial .clients div p:last-of-type {
@@ -339,12 +362,34 @@ label {
 }
 
 footer {
+  min-width: 100%;
+  text-align: center;
   display: flex;
-  background-color: hsl(168, 34%, 41%);
+  flex-direction: column;
+  justify-content: center;
+  background-color: hsl(168, 48%, 65%);
+  align-content: center;
+  padding: 3rem;
 }
 
-footer p {
-  color: hsl(168, 34%, 41%);
+footer h4 {
+  color: hsl(167, 40%, 24%);
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+footer ul {
+  display: flex;
+  color: hsl(167, 40%, 24%);
+  justify-content: center;
+}
+
+footer ul li {
+  margin: 1rem 1rem 0;
+}
+
+footer ul li a {
+  padding: 1rem;
 }
 
 .attribution {
