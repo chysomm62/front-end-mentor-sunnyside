@@ -131,7 +131,7 @@ label {
 }
 .header h1 {
   text-align: center;
-  padding: 4rem;
+  padding: 0;
   text-transform: uppercase;
   font-size: 4rem;
   font-family: "Fraunces", serif;
