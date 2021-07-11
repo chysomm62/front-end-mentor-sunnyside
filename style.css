@@ -185,7 +185,7 @@ label {
 .grid2 {
   grid-column: 2;
   grid-row: 1;
-  background: url("./images/desktop/image-transform.jpg");
+  /* background: url("./images/desktop/image-transform.jpg"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -194,7 +194,7 @@ label {
 .grid3 {
   grid-column: 1;
   grid-row: 2;
-  background: url("./images/desktop/image-stand-out.jpg");
+  /* background: url("./images/desktop/image-stand-out.jpg"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -403,8 +403,97 @@ footer ul li a {
 @media screen and (max-width: 600px) {
   .header {
     background: url(./images/mobile/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 1rem 2rem;
+    color: hsl(0, 0%, 100%);
+    height: 100%;
+    min-height: 100vh;
   }
+  .toggle {
+    display: block;
+  }
+
   .header h1 {
+    font-size: 2.5rem;
+    padding: 5rem 0 3rem;
+  }
+  .header nav > img {
+    max-width: 20%;
+  }
+  .header nav ul {
+    display: none;
+  }
+  .grid-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .grid4,
+  .grid1 {
+    padding: 2rem;
+    max-width: 100%;
+  }
+  .grid1 h2,
+  .grid4 h2 {
     font-size: 2rem;
+    font-family: "Fraunces", serif;
+    line-height: 1.2;
+    font-weight: 800;
+  }
+
+  .grid1 p,
+  .grid4 p {
+    font-size: 1rem;
+    padding: 2rem 0;
+    color: hsl(232, 10%, 55%);
+  }
+
+  .grid1 a,
+  .grid4 a {
+    font-size: 1rem;
+    font-family: "Fraunces", serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-bottom: 3px solid hsl(51, 100%, 49%);
+    padding-bottom: 0;
+    line-height: 1;
+    width: fit-content;
+    align-self: center;
+  }
+  .graphic-design {
+    background: url("./images/mobile/image-graphic-design.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: hsl(167, 40%, 24%);
+  }
+
+  .photography {
+    background: url("./images/mobile/image-photography.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: hsl(212, 27%, 19%);
+  }
+  .grid5,
+  .grid6 {
+    min-height: 100vh;
+    padding: 2rem;
+  }
+
+  .grid5 h2,
+  .grid6 h2 {
+    font-size: 1.5rem;
+    padding: 1.5rem 0;
+    font-family: "Fraunces", serif;
+  }
+  .grid5 p,
+  .grid6 p {
+    font-size: 0.9rem;
+  }
+  .testimonial {
+    flex-direction: column;
   }
 }
