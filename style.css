@@ -399,3 +399,12 @@ footer ul li a {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media screen and (max-width: 600px) {
+  .header {
+    background: url(./images/mobile/image-header.jpg);
+  }
+  .header h1 {
+    font-size: 2rem;
+  }
+}
