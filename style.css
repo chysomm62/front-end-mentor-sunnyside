@@ -355,7 +355,7 @@ label {
 }
 
 .images div:first-of-type {
-  background: url(./images/desktop/image-gallery-milkbottles.jpg);
+  /* background: url(./images/desktop/image-gallery-milkbottles.jpg); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -372,10 +372,8 @@ footer {
   padding: 3rem;
 }
 
-footer h4 {
-  color: hsl(167, 40%, 24%);
-  font-weight: 900;
-  font-size: 3rem;
+footer svg {
+  align-self: center;
 }
 
 footer ul {
@@ -479,7 +477,7 @@ footer ul li a {
   }
   .grid5,
   .grid6 {
-    min-height: 100vh;
+    min-height: 90vh;
     padding: 2rem;
   }
 
@@ -509,7 +507,11 @@ footer ul li a {
 
   .testimonial .clients div {
     max-width: 100%;
-    padding: 2rem 0;
+    padding: 0 0 4rem 0;
+  }
+
+  .testimonial .clients div:last-of-type {
+    padding-bottom: 0;
   }
 
   .testimonial .clients div img {
@@ -518,21 +520,34 @@ footer ul li a {
     margin: 0 auto;
   }
 
-  .testimonial .clients div p {
-    color: hsl(213, 9%, 39%);
-  }
-
   .testimonial .clients div p:first-of-type {
-    padding: 3rem 0;
+    padding: 1rem 0;
+    font-size: 1.05rem;
+  }
+  .images {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .images div {
+    min-width: 50%;
   }
 
-  .testimonial .clients div h3 {
-    font-weight: 800;
-    font-family: "Fraunces", serif;
+  footer svg {
+    margin-bottom: 1.5rem;
+  }
+  footer ul {
+    display: flex;
+    color: hsl(167, 40%, 24%);
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 0;
   }
 
-  .testimonial .clients div p:last-of-type {
-    font-size: 0.9rem;
-    color: hsl(210, 4%, 67%);
+  footer ul:last-of-type {
+    justify-content: space-around;
+  }
+
+  footer ul li {
+    margin: 0;
   }
 }
