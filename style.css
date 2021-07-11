@@ -101,6 +101,10 @@ label {
   min-height: 100vh;
 }
 
+.toggle {
+  display: none;
+}
+
 .header nav {
   display: flex;
   justify-content: space-between;
@@ -369,7 +373,7 @@ footer {
   justify-content: center;
   background-color: hsl(168, 48%, 65%);
   align-content: center;
-  padding: 3rem;
+  padding: 2rem;
 }
 
 footer svg {
@@ -411,6 +415,7 @@ footer ul li a {
   }
   .toggle {
     display: block;
+    opacity: 0.7;
   }
 
   .header h1 {
@@ -418,7 +423,7 @@ footer ul li a {
     padding: 5rem 0 3rem;
   }
   .header nav > img {
-    max-width: 20%;
+    max-width: 30%;
   }
   .header nav ul {
     display: none;
@@ -544,7 +549,8 @@ footer ul li a {
   }
 
   footer ul:last-of-type {
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin-bottom: 0;
   }
 
   footer ul li {
