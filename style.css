@@ -459,18 +459,19 @@ footer ul li a {
 
   .header nav ul li a {
     margin: 1rem 0;
+    color: hsl(212, 27%, 19%);
   }
   .header nav ul li a:hover,
   .active {
     background-color: hsl(51, 100%, 49%);
-    color: black;
+    color: hsl(212, 27%, 19%);
     text-transform: uppercase;
     font-weight: 900;
     font-size: 0.75rem;
   }
 
   .header .textss {
-    min-height: 60vh;
+    min-height: 70vh;
   }
 
   .header h1 {
