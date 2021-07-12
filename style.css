@@ -159,22 +159,22 @@ label {
 .grid1 {
   grid-column: 1;
   grid-row: 1;
-  padding: 5rem;
+  padding: 8rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   max-height: 90vh;
 }
 
 .grid1 h2 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-family: "Fraunces", serif;
-  line-height: 1.2;
+  line-height: 1.3;
   font-weight: 900;
 }
 
 .grid1 p {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   padding: 2rem 0;
   color: hsl(232, 10%, 55%);
 }
@@ -209,7 +209,7 @@ label {
 .grid4 {
   grid-column: 2;
   grid-row: 2;
-  padding: 5rem;
+  padding: 6rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -217,14 +217,14 @@ label {
 }
 
 .grid4 h2 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-family: "Fraunces", serif;
   line-height: 1.2;
   font-weight: 900;
 }
 
 .grid4 p {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   padding: 2rem 0;
   color: hsl(232, 10%, 55%);
 }
