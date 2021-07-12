@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/desktop/Frontend Mentor Sunnyside agency landing page.png)
 
 ### Links
 

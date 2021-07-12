@@ -114,6 +114,7 @@ label {
 .header nav ul {
   display: flex;
   justify-content: space-between;
+  margin: 0;
 }
 
 .header nav ul li a {
@@ -133,12 +134,13 @@ label {
 .header .textss {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   min-height: 50vh;
 }
 .header h1 {
   text-align: center;
   padding: 0;
+  padding-top: 4rem;
   text-transform: uppercase;
   font-size: 3.5rem;
   font-family: "Fraunces", serif;
