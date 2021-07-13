@@ -378,7 +378,7 @@ footer {
   justify-content: center;
   background-color: hsl(168, 48%, 65%);
   align-content: center;
-  padding: 2rem;
+  padding: 3rem 0 0;
 }
 
 footer svg {
@@ -402,9 +402,11 @@ footer ul li a {
 .attribution {
   font-size: 11px;
   text-align: center;
+  background-color: rgb(51, 92, 109);
+  padding: 1rem;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(86, 81%, 58%);
 }
 
 @media screen and (max-width: 600px) {
