@@ -415,10 +415,14 @@ footer ul li a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 2rem;
+    padding: 0;
     color: hsl(0, 0%, 100%);
     height: 100%;
     min-height: 100vh;
+  }
+
+  .header nav {
+    padding: 2rem;
   }
   .header .toggle {
     position: absolute;
