@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://chysomm62.github.io/front-end-mentor-sunnyside/)
+- Solution URL: [https://your-solution-url.com](Add solution URL here)
+- Live Site URL: [https://chysomm62.github.io/front-end-mentor-sunnyside/](Add live site URL here)
 
 ## My process
 
@@ -54,8 +54,8 @@ Maybe in the future, I might wanna add the other pages and maybe build this with
 
 ### Useful resources
 
-- [Example resource 1](https://www.mozilla.org) - This helped me throughout the project. I really liked the css grid and flex explanations and will use it going forward.
-- [Example resource 2](https://www.google.com) - I just googled my way out of this one :haha:.
+- [https://www.mozilla.org](Example resource 1) - This helped me throughout the project. I really liked the css grid and flex explanations and will use it going forward.
+- [https://www.google.com](Example resource 2) - I just googled my way out of this one :haha:.
 
 ## Author
 
